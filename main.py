@@ -36,7 +36,7 @@ def search_google_flights(departure_id, arrival_id, departure_date, return_date,
     
     if response.status_code != 200:
         print(f"Error: Received status code {response.status_code} with response: {response.text}")
-        return [{"error": f"Received status code {response.status_code} with response: {response.text}"}]
+        return f"Received status code {response.status_code} with response: {response.text}"
     
     results = response.json()
     
@@ -102,7 +102,7 @@ def search_google_hotels(destination, type, check_in_date, check_out_date, adult
     
     if response.status_code != 200:
         print(f"Error: Received status code {response.status_code} with response: {response.text}")
-        return [{"error": f"Received status code {response.status_code} with response: {response.text}"}]
+        return f"Received status code {response.status_code} with response: {response.text}"
     
     results = response.json()
     
