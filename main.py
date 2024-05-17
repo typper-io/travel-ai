@@ -63,7 +63,8 @@ def search_google_flights(departure_id, arrival_id, departure_date, return_date,
                 "airplane": flight.get("airplane"),
                 "airline": flight.get("airline"),
                 "flight_number": flight.get("flight_number"),
-                "travel_class": flight.get("travel_class")
+                "travel_class": flight.get("travel_class"),
+                "price": flight.get("price"),
             }
 
             simplified_flights.append(simplified_flight)
