@@ -22,7 +22,7 @@ This project is a Proof of Concept (POC) by Typper, utilizing Phidata and OpenAI
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/travel-ai.git
+    git clone https://github.com/typper-io/travel-ai.git
     cd travel-ai
     ```
 
